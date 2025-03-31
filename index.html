@@ -14,16 +14,24 @@
             </div> 
                 <nav> 
                     <ul class="nav-right">
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Projects</li>
                         <li>
-                            <button>Get In Touch</button>
+                            <a href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#projects">Projects</a>
+                        </li>
+                        <li>
+                            <a href="mailto:n-samuels@outlook.com">
+                                <button>Get In Touch</button>
+                            </a>
                         </li>
                     </ul>
                 </nav>
         </section>
-        <div class="header">
+        <div class="header" id="home">
             <div>
                 <p> 👋 Hey! I'm Nicole Samuels</p>
                 <h1>A Junior Software Developer based in the UK.</h1>
@@ -32,16 +40,16 @@
         </div>
     </header>
     <main>
-        <section class="container about-me" > <!--Remove class for this section-->
+        <section class="container about-me" id="about"> <!--Remove class for this section-->
             <h2>About Me</h2>
-            <div class="profile">
-                <img src="./images/image.jpeg" alt="profile">
-            </div>
-            <p>I am a junior developer actively building my skills in HTML,
+            <div class="profile-content">
+                <img class="profile" src="./images/image.jpeg" alt="profile">
+                <p>I am a junior developer actively building my skills in HTML,
                 CSS Sass and Javascript. I enjoy creating clean, responsive, 
                 and user friendly websites, and I am constant learning and improving 
                 through hands on projects.
-            </p>
+                </p>
+            </div>
         </section>
 
         <section class="container technical-skills">
@@ -73,8 +81,8 @@
             </div>
         </section>
 
-        <section class="container projects">
-            <h2 id="project">My Projects</h2>
+        <section class="container projects" id="projects">
+            <h2 id="projectTitle">My Projects</h2>
             <div class="project-card1">
                 <img class="project-image" src="./images/project_image.png" alt="project 1">    
             <h3>REACT</h3>

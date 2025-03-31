@@ -40,12 +40,22 @@ li {
 
 .header {
   display: flex;
+<<<<<<< HEAD
+=======
+  justify-content: space-between;
+>>>>>>> 3e20712 (add links and changes to about section)
 }
 
 button {
   min-width: 100px;
 }
 
+<<<<<<< HEAD
+=======
+.header-image {
+  width: 60%;
+}
+>>>>>>> 3e20712 (add links and changes to about section)
 @media only screen and (max-width: 428px) {
   .header-image {
     display: none;
@@ -99,7 +109,11 @@ footer {
   margin-top: 50px;
   margin-bottom: 50px;
   background-color: black;
+<<<<<<< HEAD
   width: 428px;
+=======
+  width: 100%;
+>>>>>>> 3e20712 (add links and changes to about section)
   height: 216px;
 }
 
